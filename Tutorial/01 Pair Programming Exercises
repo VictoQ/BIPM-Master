@@ -1,0 +1,28 @@
+# 01 Pair Programming exercises - Task 1
+username = 'Peter'
+password = 'Secret'
+if username == 'Peter' and password == 'Secret': 
+    print('Welcome Peter!')
+elif username == 'Peter' and password != 'Secret' :
+    print('Wrong password')
+elif username != 'Peter' and password == 'Secret' :
+    print('Wrong username')
+else :
+    print('Wrong username and password')
+
+# Task 2
+numbers = [2, 4, 6, 10, 15]
+for int in numbers : 
+    print(int ** 2)
+
+# Task 3
+adjectives = ['inexpensive', 'cheap', 'discounted']
+nouns = ['chairs', 'armchairs', 'furniture', 'tables']
+for a in adjectives:
+    for b in nouns:
+        print(a, b)
+
+# Task 4
+def area(a, b):
+    return a * b
+print(area(5, 5))
